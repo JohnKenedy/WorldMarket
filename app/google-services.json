@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "767942998250",
+    "project_id": "worldmarket-7ae22",
+    "storage_bucket": "worldmarket-7ae22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767942998250:android:b106fcc074bec09d89ff93",
+        "android_client_info": {
+          "package_name": "com.canytech.worldmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767942998250-72css9vga0e4eq76uihq9jnmn0dh5iv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.canytech.worldmarket",
+            "certificate_hash": "3219cc2999c6de4c52c794a78d3512f824961efd"
+          }
+        },
+        {
+          "client_id": "767942998250-nkt953fqhlela0u03mg783pfq2c58gub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpiiBDjDqaByhqGxvBupb_ZFHUA62SkoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767942998250-nkt953fqhlela0u03mg783pfq2c58gub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
