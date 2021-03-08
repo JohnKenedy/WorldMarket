@@ -7,12 +7,12 @@ import android.view.WindowInsets
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.canytech.worldmarket.R
-import kotlinx.android.synthetic.main.activity_login.*
+import kotlinx.android.synthetic.main.activity_register.*
 
-class LoginActivity : AppCompatActivity() {
+class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_register)
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             window.insetsController?.hide(WindowInsets.Type.statusBars())
@@ -24,10 +24,23 @@ class LoginActivity : AppCompatActivity() {
             )
         }
 
-        tv_register.setOnClickListener {
-            val intent = Intent(this@LoginActivity, RegisterActivity::class.java)
+        tv_register_login.setOnClickListener {
+            val intent = Intent(this@RegisterActivity, LoginActivity::class.java)
             startActivity(intent)
+            finish()
+        }
+    }
+
+    private fun setupActionBar() {
+
+        setSupportActionBar(toolbar_register_activity)
+
+        val actionBar = supportActionBar
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true)
+            actionBar.setHomeAsUpIndicator(R.drawable.ic_arrow_back)
         }
 
     }
+
 }
