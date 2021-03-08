@@ -13,4 +13,6 @@
     <color name="blue_end">#005ABA</color>
     <color name="blue_start">#00AABA</color>
     <color name="no_color">#00000000</color>
+
+    <color name="red">#DC0007</color>
 </resources>
